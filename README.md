@@ -43,10 +43,10 @@ Please download the appropriate version for your operating system. After downloa
 1. Clone this repository to your local machine or download the script.
 2. Open the script in a text editor or IDE of your choice.
 3. Customize the following parameters at the end of the script:
-* website_url: The URL of the website with the reCAPTCHA challenge.
-* wait: The waiting time in seconds (integer) between actions (adjust as needed). Note that 5 seconds is the recommended waiting time, and that anything less might break the code.
-* audio_directory: The path to the directory where audio files will be stored.
-* ffmpeg: The unzipped ffmpeg file according to your OS. Specify ffmpeg for mac and ffmpeg.exe for Windows.
+* **website_url**: The URL of the website with the reCAPTCHA challenge.
+* **wait**: The waiting time in seconds (integer) between actions (adjust as needed). Note that 5 seconds is the recommended waiting time, and that anything less might break the code.
+* **audio_directory**: The path to the directory where audio files will be stored.
+* **ffmpeg**: The unzipped ffmpeg file according to your OS. Specify ffmpeg for mac and ffmpeg.exe for Windows.
 
   Example:
 
@@ -62,7 +62,7 @@ Please download the appropriate version for your operating system. After downloa
 
     ```python3 reCAPTCHA_solver.py```
 
-The script will navigate to the specified website, locate and solve the reCAPTCHA challenge, and provide feedback on whether it was successful. It will return None if it could not find the reCAPTCHA, False if it could not solve it and True if reCAPTCHA was solved.
+The script will navigate to the specified website, locate and solve the reCAPTCHA challenge, and provide feedback on whether it was successful. It will return *None* if it could not find the reCAPTCHA, *False* if it could not solve it and *True* if reCAPTCHA was solved.
 
 ## Important Notes
 
