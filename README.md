@@ -45,7 +45,7 @@ Please download the appropriate version for your operating system. After downloa
 3. Customize the following parameters at the end of the script:
 * **website_url**: The URL of the website with the reCAPTCHA challenge.
 * **wait**: The waiting time in seconds (integer) between actions (adjust as needed). Note that 5 seconds is the recommended waiting time, and that anything less might break the code.
-* **audio_directory**: The path to the directory where audio files will be stored.
+* **audio_directory**: The path to a directory where audio files (.mp3 and .wav) will be stored.
 * **ffmpeg**: The unzipped ffmpeg file according to your OS. Specify ffmpeg for mac and ffmpeg.exe for Windows.
 
   Example:
