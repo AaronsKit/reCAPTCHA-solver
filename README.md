@@ -46,19 +46,19 @@ Please download the appropriate version for your operating system. After downloa
 * audio_directory: The path to the directory where audio files will be stored.
 * ffmpeg: The unzipped ffmpeg file according to your OS. Specify ffmpeg for mac and ffmpeg.exe for Windows.
 
-Example:
+  Example:
 
-```python
-recaptcha_solver(
-    "https://www.google.com/recaptcha/api2/demo",
-    5,
-    "my-path/reCAPTCHA solver/audio",
-    "ffmpeg",
-)
+    ```python
+    recaptcha_solver(
+        "https://www.google.com/recaptcha/api2/demo",
+        5,
+        "my-path/reCAPTCHA solver/audio",
+        "ffmpeg",
+    )
 
 4. Run the script using Python 3:
 
-```python3 reCAPTCHA_solver.py```
+    ```python3 reCAPTCHA_solver.py```
 
 The script will navigate to the specified website, locate and solve the reCAPTCHA challenge, and provide feedback on whether it was successful. It will return None if it could not find the reCAPTCHA, False if it could not solve it and True if reCAPTCHA was solved.
 
