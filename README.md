@@ -12,6 +12,8 @@ You can install all the required Python libraries using pip3 by running the foll
 
 ```pip3 install -r requirements.txt```
 
+Additionally, you might require the following:
+
 ### ChromeDriver
 
 This script utilizes Selenium WebDriver, which no longer requires you to download ChromeDriver separately. However, to use Selenium with Google Chrome, you will need to have Google Chrome installed on your system.
