@@ -45,14 +45,16 @@ Please download the appropriate version for your operating system. After downloa
 * wait: The waiting time in seconds (integer) between actions (adjust as needed). 
 * audio_directory: The path to the directory where audio files will be stored.
 * ffmpeg: The unzipped ffmpeg file according to your OS. Specify ffmpeg for mac and ffmpeg.exe for Windows.
-    Example:
-    ```python
-    recaptcha_solver(
-        "https://www.google.com/recaptcha/api2/demo",
-        5,
-        "my-path/reCAPTCHA solver/audio",
-        "ffmpeg",
-    )
+
+Example:
+
+```python
+recaptcha_solver(
+    "https://www.google.com/recaptcha/api2/demo",
+    5,
+    "my-path/reCAPTCHA solver/audio",
+    "ffmpeg",
+)
 
 4. Run the script using Python 3:
 
